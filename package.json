@@ -1,0 +1,22 @@
+{
+  "name": "receipt-catalogue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akohjesse/catalogue.git"
+  },
+  "author": "Amaino Oti & Akoh Jesse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akohjesse/catalogue/issues"
+  },
+  "homepage": "https://github.com/Akohjesse/catalogue#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
