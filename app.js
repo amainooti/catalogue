@@ -4,7 +4,8 @@ const app = express();
 const {config, engine} = require('express-edge');
 const bodyParser = require('body-parser');
 const port = process.env.PORT || 7000;
-const index = require('./routes/index')
+const index = require('./routes/index');
+const mongoose = require('mongoose');
 
 app.use(engine);
 app.set('views', __dirname + '/views');
