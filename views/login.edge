@@ -73,15 +73,17 @@ body {
     <main class="form-signin">
       <form action = "/user/register" method="POST" enctype="multipart/form-data">
         <img class="mb-4" src="/images/logo.png" alt="" width="72" height="57">
-        <h1 class="h3 mb-3 fw-normal">Get Started</h1>
-        <label for="inputText" class="visually-hidden">Name</label>
-        <input type="text" id="inputText" class="form-control" placeholder="First & Last Name" required autofocus>
+        <h1 class="h3 mb-3 fw-normal">Welcome back</h1>
         <label for="inputEmail" class="visually-hidden">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Company mail" required autofocus>
         <label for="inputPassword" class="visually-hidden">Password</label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Pass-code" required>
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
         <button class="w-100 btn btn-lg  btn-danger" type="submit">Sign in</button>
-        <a href="user/login" class="pt-4 mb-2">Or Login to existing account</a>
         <p class="mt-5 mb-3 text-muted">&copy; Asphalt Unity Construction LTD</p>
       </form>
     </main>

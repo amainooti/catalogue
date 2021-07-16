@@ -10,11 +10,14 @@ const user = require('./routes/user.js')
 app.use(engine);
 app.set('views', __dirname + '/views');
 
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
 
 if (process.env.NODE_ENV = "Production" || process.env.NODE_ENV === "staging"){
     app.use(express.static('public'));
     app.use(index);
-    app,use('/user', user)
+    app.use('/user', user)
 }
  
 
